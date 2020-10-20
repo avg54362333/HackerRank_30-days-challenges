@@ -6,7 +6,7 @@ public class multiply {
         // System.out.print("Enter an integer: ");
         x = scanner.nextInt();
 
-        for(x=2; x<=2; x++){
+        for(int a=x; a<=x; a++){
             for(int i=1; i<=10; i++){
                 System.out.println(x +" " + "x" + " " + i + " " +"=" + " "+ x * i);
             }
@@ -18,7 +18,8 @@ public class multiply {
 }
 
 
-//Output:
+
+//Output: (User can randomly input an integer, and the programming will be executed base on the number given by user)
 2 x 1 = 2
 2 x 2 = 4
 2 x 3 = 6
